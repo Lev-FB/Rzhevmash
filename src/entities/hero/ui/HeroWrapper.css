@@ -1,0 +1,22 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 280px 4fr 2fr 250px ;
+    grid-template-rows: 1fr 4fr 2fr ;
+    overflow: hidden;
+}
+
+@media screen and (max-width:1450px){
+
+    .wrapper {
+        grid-template-columns:230px 4fr 2fr  220px ;
+    }
+
+}
+
+@media screen and (max-width:1350px){
+
+    .wrapper {
+        grid-template-columns:215px 4fr 2fr  220px ;
+    }
+
+}

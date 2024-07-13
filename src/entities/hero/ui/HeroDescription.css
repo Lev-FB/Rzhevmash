@@ -1,0 +1,53 @@
+.heroDescWrapper {
+    width: 729px;
+}
+
+.heroTitle {
+    font-size: 30px;
+    width: 550px;
+    margin:0px
+}
+
+.heroGreenTilte{
+    color:#22B24C
+}
+
+
+@media screen and (max-width:1760px){
+    .heroDescWrapper {
+        width: 629px;
+        font-size: 16px;
+    }
+
+    .heroTitle {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:1550px) {
+
+    .heroDescWrapper p {
+        width: 569px;
+        font-size: 15px;
+    }
+
+    .heroDescWrapper {
+        margin-left: 20px;
+    }
+
+    .heroTitle {
+        font-size: 23px;
+    }
+
+}
+
+@media screen and (max-width:1400px) {
+    .heroDescWrapper {
+        margin-left: 15px;
+    }
+
+    .heroTitle {
+        font-size: 20px;
+    }
+
+}

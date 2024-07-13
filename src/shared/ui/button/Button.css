@@ -1,0 +1,46 @@
+.button {
+    padding: 10px 10px 10px 50px;
+    display: flex;
+    color: rgba(251, 251, 251, 0.5);
+    font-weight: 300;
+    gap:30px;
+    font-size: 16px;
+    align-items: center;
+    border: 1px solid #FBFBFB;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.buttonArrow{
+    padding: 15px 20px 15px 20px;
+    margin-right:0px;
+    border-radius: 15px;
+    background: rgba(34, 178, 76, 0.6);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.button:hover {
+    background: rgba(251, 251, 251, 0.4);
+    transform: scale(1.03);
+    color: rgba(251, 251, 251, 1);
+
+}
+
+.button:hover .buttonArrow{
+    background: rgba(34, 178, 76, 1);
+}
+
+@media screen and (max-width:1550px){
+    .button {
+        padding: 10px 10px 10px 30px;
+
+    }
+}
+@media screen and (max-width:1450px){
+    .button {
+        padding: 10px 10px 10px 20px;
+        margin: 10px;
+    }
+
+}
+

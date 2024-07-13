@@ -1,0 +1,7 @@
+.anchorLinksWrapper{
+    text-align: start;
+    gap:20px;
+    position: fixed;
+    z-index: 10;
+    margin-left: 40px;
+}

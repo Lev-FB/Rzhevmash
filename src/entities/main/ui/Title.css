@@ -1,0 +1,25 @@
+.mainTitle {
+    font-size: 32px;
+    width: 996px;
+
+}
+
+.mainTitle span {
+    color:#22B24C
+}
+
+@media screen and (max-width:1760px){
+    .mainTitle {
+        font-size: 28px;
+        width: 706px;
+
+    }
+}
+
+@media screen and (max-width:1400px){
+    .mainTitle {
+        font-size: 25px;
+        width: 786px;
+
+    }
+}

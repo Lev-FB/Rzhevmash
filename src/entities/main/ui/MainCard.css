@@ -1,0 +1,37 @@
+.mainCard:hover {
+    background: rgba(34, 178, 76, 0.8);
+}
+
+
+.mainCardTitle {
+    color:#22B24C
+}
+.mainCardDescription {
+    color:black;
+    font-size:20px;
+    font-weight:600;
+    width:204px
+}
+.mainCard:hover .mainCardTitle{
+    color: #FBFBFB;
+}
+.mainCard:hover .mainCardDescription{
+    color: #FBFBFB;
+}
+
+.mainCardInfoWrapper{
+    display:flex;
+    align-items:center;
+    gap:30px
+}
+
+@media screen and (max-width: 1550px){
+    .mainCardDescription {
+        font-size:18px;
+        font-weight:500;
+    }
+
+    .mainCard {
+        padding-left:15px ;
+    }
+}

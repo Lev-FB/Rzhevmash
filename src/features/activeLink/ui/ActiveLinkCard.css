@@ -1,0 +1,49 @@
+
+.linkTitleOn {
+    color:#22B24C;
+}
+.linkTitleOff {
+    color: rgba(34, 178, 76, 0.5);
+}
+
+
+.linkTitleOff,.linkTitleOn {
+    transition:all 0.3s ease-in-out;
+
+}
+
+.descriptionOn {
+    color: rgb(251, 251, 251);
+}
+.descriptionOff {
+
+    color: rgb(251, 251, 251,0.5);
+}
+.descriptionOff,.descriptionOn{
+    font-size:20px;
+    width:186px;
+    font-weight:600;
+    transition:all 0.3s ease-in-out;
+
+}
+
+@media screen and (max-width:1550px){
+    .descriptionOn,.descriptionOff {
+        font-size:17px;
+        font-weight:500;
+    }
+}
+
+@media screen and (max-width:1400px){
+    .linkTitleOff,.linkTitleOn {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1350px){
+    .linkTitleOff,.linkTitleOn {
+        font-size: 16px;
+    }
+    .descriptionOn,.descriptionOff {
+        font-size:16px;
+    }
+}
